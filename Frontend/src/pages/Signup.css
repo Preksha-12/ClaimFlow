@@ -1,0 +1,12 @@
+.signup-wrapper { max-width:500px; }
+.signup-role-banner { display:flex;align-items:center;gap:8px;padding:10px 14px;background:var(--accent-dim);border:1px solid rgba(0,212,161,.3);border-radius:var(--radius-md);color:var(--accent);font-size:.82rem;margin-bottom:20px; }
+.signup-role-banner strong { color:var(--accent); }
+.signup-divider { display:flex;align-items:center;gap:12px;margin:4px 0 16px;font-size:.75rem;font-weight:600;color:var(--text-secondary); }
+.signup-divider::before,.signup-divider::after { content:'';flex:1;height:1px;background:var(--border); }
+.signup-err { font-size:.75rem;color:var(--red);margin-top:2px; }
+.signup-field-err .field-input { border-color:var(--red);box-shadow:0 0 0 3px var(--red-dim); }
+.signup-success { display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px;padding:12px 0; }
+.success-icon { margin-bottom:4px; }
+.signup-success h2 { font-family:var(--font-display);font-size:1.3rem;font-weight:700;color:var(--text-primary); }
+.signup-success p { font-size:.875rem;color:var(--text-secondary);line-height:1.6; }
+.signup-success .btn-login { margin-top:8px; }
