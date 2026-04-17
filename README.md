@@ -149,7 +149,7 @@ Submitted → Under Verification → Approved / Rejected
 | Layer | Technology |
 |-------|-----------|
 | **Frontend** | React 18 (functional components + hooks), React Router v6, CSS |
-| **Backend** | Java — plain HTTP server via `com.sun.net.httpserver` (no frameworks) |
+| **Backend** | Java  |
 | **Database** | MySQL 8 — relational DB accessed via JDBC |
 | **API Style** | REST — JSON over HTTP, CORS-enabled for `localhost:3000` |
 
